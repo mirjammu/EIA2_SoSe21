@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns:  200px[place1] 200px[place2]  200px[place3]  200px[place4]  200px[place1];
+    grid-template-rows:  200px[place1]  200px[place2]  200px[place3]  200px[place4]  200px[place1];
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+#btn {
+    margin: 5px;
+    
+}
+
+#heading, #explain {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+body {
+    text-align: center;
+}
